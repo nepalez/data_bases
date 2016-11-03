@@ -1,0 +1,24 @@
+---
+base:
+  test:
+    adapter:  sqlite3
+    database: ./db/base_test.sqlite3
+  development:
+    adapter:  sqlite3
+    database: ./db/base_dev.sqlite3
+
+personal_data:
+  test:
+    adapter:  sqlite3
+    database: ./db/personal_test.sqlite3
+  development:
+    adapter:  sqlite3
+    database: ./db/personal_dev.sqlite3
+
+medical_data:
+  test:
+    adapter: sqlite3
+    database: ./db/medical_test.sqlite3
+  development:
+    adapter: sqlite3
+    database: ./db/medical_dev.sqlite3
